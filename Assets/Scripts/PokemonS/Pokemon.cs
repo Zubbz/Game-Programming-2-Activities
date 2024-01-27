@@ -14,7 +14,7 @@ public enum Type
 
 public enum Nature
 {
-    Adamant, Brave, Careful, Docile, gentle, Hasty, Lax, Mild, Naive, Quiet
+    Adamant, Brave, Careful, Docile, Gentle, Hasty, Lax, Mild, Naive, Quiet
 }
 public enum Gender
 {

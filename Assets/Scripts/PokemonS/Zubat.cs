@@ -21,7 +21,7 @@ public class Zubat : PokemonStats
             case Name.Zubat: Debug.Log("Name: Zubat"); break;
             default:
                 Debug.Log("Pokemon is not in data");
-                break; 
+                break;
         }
 
         switch (pokemonType)
@@ -41,11 +41,40 @@ public class Zubat : PokemonStats
                 Debug.Log("Pokemon Type does not exist!");
                 break;
         }
+
+        switch (pokemonNature)
+        {
+            case Nature.Adamant: Debug.Log("Nature: Adamant"); break;
+            case Nature.Brave: Debug.Log("Nature: Brave"); break;
+            case Nature.Careful: Debug.Log("Nature: Careful"); break;
+            case Nature.Docile: Debug.Log("Nature: Docile"); break;
+            case Nature.Gentle: Debug.Log("Nature: Gentle"); break;
+            case Nature.Hasty: Debug.Log("Nature: Hasty"); break;
+            case Nature.Lax: Debug.Log("Nature: Lax"); break;
+            case Nature.Mild: Debug.Log("Nature: Mild"); break;
+            case Nature.Naive: Debug.Log("Nature: Naive"); break;
+            case Nature.Quiet: Debug.Log("Nature: Quiet"); break;
+
+            default:
+                Debug.Log("Pokemon nature does not exist!");
+                break;
+        }
+
+        switch (pokemonGender)
+        {
+            case Gender.Male: Debug.Log("Gender: Male"); break;
+            case Gender.Female: Debug.Log("Gender: Female"); break;
+            case Gender.Unknown: Debug.Log("Gender: Unknown"); break;
+
+            default:
+                Debug.Log("Gender does not exist!");
+                break;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
