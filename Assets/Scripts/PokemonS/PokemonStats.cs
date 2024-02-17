@@ -9,7 +9,8 @@ public class PokemonStats : MonoBehaviour
     public int dexNum;
     public int pokemonLevel;
     public Name pokemonName;
-    public Type pokemonType;
+    public Type pokemonType1;
+    public Type pokemonType2;
     public Nature pokemonNature;
     public Gender pokemonGender;
     public string Owner;
